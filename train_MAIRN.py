@@ -9,7 +9,7 @@ from utils.func import label_edge_prediction, AvgMeter
 from model.MAIRN import MAIRN
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--epoch', type=int, default=10, help='epoch number')
+parser.add_argument('--epoch', type=int, default=60, help='epoch number')
 parser.add_argument('--lr', type=float, default=2e-3, help='learning rate')
 parser.add_argument('--batchsize', type=int, default=10, help='batch size')
 parser.add_argument('--trainsize', type=int, default=352, help='input size')
