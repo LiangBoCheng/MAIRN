@@ -7,6 +7,7 @@ from datetime import datetime
 from utils.data import get_loader
 from utils.func import label_edge_prediction, AvgMeter
 from model.MAIRN import MAIRN
+# from model.MAIRN_Res2Net50 import MAIRN
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=60, help='epoch number')
