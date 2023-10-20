@@ -8,6 +8,7 @@ import imageio
 import time
 from utils.data import test_dataset
 from model.MAIRN import MAIRN
+# from model.MAIRN_Res2Net50 import MAIRN
 
 model = MAIRN()
 model.load_state_dict(torch.load('./models/MAIRN/MAIRN_DUTS-TR.pth'))
