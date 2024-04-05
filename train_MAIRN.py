@@ -33,11 +33,13 @@ scheduler = lr_scheduler.StepLR(optimizer, step_size=20, gamma=0.1)
 
 CE = torch.nn.BCEWithLogitsLoss()
 def DiceLoss(inputs, targets):
-    inter = (inputs * targets).sum()
     eps = 1e-5
-    dice = (2 * inter + eps) / (inputs.sum() + targets.sum() + eps)
-
-    return 1 - dice
+    dice_loss = []
+    for i in range(inputs.size(0)): 
+        inter = (inputs[i] * targets[i]).sum()
+        dice = (2 * inter + eps) / (inputs[i].sum() + targets[i].sum() + eps)
+        dice_loss.append(1 - dice)
+    return torch.mean(torch.tensor(dice_loss)) 
 
 size_rates = [0.75, 1, 1.25]  # multi-scale training
 
