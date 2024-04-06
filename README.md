@@ -3,6 +3,7 @@
 python 3.7 + pytorch 1.9.0
 # Saliency maps
 MAIRN saliency maps: [Baidu](https://pan.baidu.com/s/1NhLZZWftV8RymKxAED7Nqg?pwd=MAIR) (code:MAIR)  
+MAIRN-ResNet101 saliency maps: [Baidu](https://pan.baidu.com/s/1jPzY41MeDWIBCWtIWmxnyA?pwd=MAIR) (code:MAIR)  
 MAIRN-Res2Net50 saliency maps: [Baidu](https://pan.baidu.com/s/1L2c0D7lNulmfLgLMbVwmOQ?pwd=MAIR) (code:MAIR)  
 MAIRN-SwinB saliency maps: [Baidu](https://pan.baidu.com/s/1RIBtinHPaF61UD1E50fzxg?pwd=MAIR) (code:MAIR)
 # Training
@@ -12,6 +13,7 @@ For MAIRN_SwinB, please modify paths of [SwinB_backbone](https://pan.baidu.com/s
 # Pre-trained model and testing
 Download the following pre-trained model and put it in ./models/, then run test_MAIRN.py  
 [MAIRN_ResNet50](https://pan.baidu.com/s/1dLs2skmP-4CEJckZqgiVJQ?pwd=MAIR) (code:MAIR)  
+[MAIRN_ResNet101](https://pan.baidu.com/s/1mq2Bo_UElTDXPGiSO9lxAw?pwd=MAIR) (code:MAIR)  
 [MAIRN_SwinB](https://pan.baidu.com/s/1J9cyiujUfvYaR0WcMptcqw?pwd=MAIR) (code:MAIR)  
 [MAIRN_Res2Net50](https://pan.baidu.com/s/1eNNhO_cB5bugJECxUm4WYA?pwd=MAIR) (code:MAIR)
 # Evaluation Tool
