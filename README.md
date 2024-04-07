@@ -9,7 +9,7 @@ MAIRN-SwinB saliency maps: [Baidu](https://pan.baidu.com/s/1RIBtinHPaF61UD1E50fz
 # Training
 Run train_MAIRN.py.  
 For MAIRN_Res2Net50, please modify paths of [Res2Net50_backbone](https://pan.baidu.com/s/1Ad1GccRH_QYX5JIMJ3Q_Gg?pwd=MAIR) (code: MAIR) in ./model/Res2Net.py.  
-For MAIRN_SwinB, please modify paths of [SwinB_backbone](https://pan.baidu.com/s/1sLpc5keVTzVl9WAyDdzo9A?pwd=MAIR) (code: MAIR) in ./model/MAIRN_SwinB.py.
+For MAIRN_SwinB, Run train_MAIRN_SwinB.py and please modify paths of [SwinB_backbone](https://pan.baidu.com/s/1sLpc5keVTzVl9WAyDdzo9A?pwd=MAIR) (code: MAIR) in ./model/MAIRN_SwinB.py.
 # Pre-trained model and testing
 Download the following pre-trained model and put it in ./models/, then run test_MAIRN.py  
 [MAIRN_ResNet50](https://pan.baidu.com/s/1dLs2skmP-4CEJckZqgiVJQ?pwd=MAIR) (code:MAIR)  
