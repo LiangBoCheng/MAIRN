@@ -14,7 +14,7 @@ For MAIRN_SwinB, Run train_MAIRN_SwinB.py and please modify paths of [SwinB_back
 Download the following pre-trained model and put it in ./models/, then run test_MAIRN.py  
 [MAIRN_ResNet50](https://pan.baidu.com/s/1dLs2skmP-4CEJckZqgiVJQ?pwd=MAIR) (code:MAIR)  
 [MAIRN_ResNet101](https://pan.baidu.com/s/1mq2Bo_UElTDXPGiSO9lxAw?pwd=MAIR) (code:MAIR)  
-[MAIRN_SwinB](https://pan.baidu.com/s/1J9cyiujUfvYaR0WcMptcqw?pwd=MAIR) (code:MAIR), If you want to test MAIRN-SwinB, please change the testsize to 224.  
+[MAIRN_SwinB](https://pan.baidu.com/s/1J9cyiujUfvYaR0WcMptcqw?pwd=MAIR) (code:MAIR). If you want to test MAIRN-SwinB, please change the testsize to 224.  
 [MAIRN_Res2Net50](https://pan.baidu.com/s/1eNNhO_cB5bugJECxUm4WYA?pwd=MAIR) (code:MAIR)
 # Evaluation Tool
 You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
