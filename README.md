@@ -1,6 +1,6 @@
 # MAIRN
 # Requirements
-python 3.7 + pytorch 1.9.0
+python 3.7 + pytorch 1.9.0 + imageio 2.22.2
 # Saliency maps
 MAIRN saliency maps: [Baidu](https://pan.baidu.com/s/1NhLZZWftV8RymKxAED7Nqg?pwd=MAIR) (code:MAIR)  
 MAIRN-ResNet101 saliency maps: [Baidu](https://pan.baidu.com/s/1jPzY41MeDWIBCWtIWmxnyA?pwd=MAIR) (code:MAIR)  
