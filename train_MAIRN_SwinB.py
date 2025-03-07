@@ -13,7 +13,7 @@ from model.MAIRN_SwinB import MAIRN
 parser = argparse.ArgumentParser()
 argument = parser.add_argument('--epoch', type=int, default=60, help='epoch number')
 parser.add_argument('--lr', type=float, default=2e-3, help='learning rate')
-parser.add_argument('--batchsize', type=int, default=8, help='batch size')
+parser.add_argument('--batchsize', type=int, default=10, help='batch size')
 parser.add_argument('--trainsize', type=int, default=224, help='input size')
 parser.add_argument('--trainset', type=str, default='DUTS-TR', help='training  dataset')
 
