@@ -1,4 +1,6 @@
 # MAIRN
+This project provides the code and results for 'Multi-Scale Attention-Edge Interactive Refinement Network for Salient Object Detection', ESWA, 2025.
+[Link](https://doi.org/10.1016/j.eswa.2025.127056)
 # Requirements
 python 3.7 + pytorch 1.9.0 + imageio 2.22.2
 # Saliency maps
