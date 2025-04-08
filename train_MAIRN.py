@@ -17,7 +17,7 @@ parser.add_argument('--trainsize', type=int, default=352, help='input size')
 parser.add_argument('--trainset', type=str, default='DUTS-TR', help='training  dataset')
 
 opt = parser.parse_args()
-data_path = 'E:/NSI_dataset/'   # D:/DUTS/
+data_path = 'E:/NSI_datasets/'  
 image_root = data_path + opt.trainset + '/train-images/'
 gt_root = data_path + opt.trainset + '/train-labels/'
 
