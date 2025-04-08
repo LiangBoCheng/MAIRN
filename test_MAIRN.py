@@ -15,7 +15,7 @@ model.load_state_dict(torch.load('./models/MAIRN/MAIRN_DUTS-TR.pth'))
 model.cuda()
 model.eval()
 
-dataset_path = 'E:/NSI_dataset/'
+dataset_path = 'E:/NSI_datasets/'
 test_datasets = ['ECSSD']  # valset = ['HKU-IS', 'PASCALS', 'DUT-O', 'DUTS-TE','ECSSD']
 
 for dataset in test_datasets:
